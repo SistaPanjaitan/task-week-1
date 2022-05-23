@@ -1,6 +1,11 @@
-function countToTen (x) {
-     for (let i = x; i <=10; i++) 
-     {console.log(i); 
+function countToTen(start) {
+    let count = '';
+
+    for (let i = start; i <= 10; i++) {
+        count+= i + ' ';
     }
-} 
-countToTen (2)
+    return count; 
+
+}
+
+console.log(countToTen(9))
