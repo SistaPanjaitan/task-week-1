@@ -20,8 +20,8 @@ class Cat extends Tiger {
     energy = 10
     isDangerous = false;
 
-    constructor (name, height,weight) {
-    super(name, address);
+    constructor (name, height, weight) {
+    super(name, height, weight);
     }
     roar () {console.log("Meoww")}
     die () {this.isDangerous = false}
